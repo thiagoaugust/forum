@@ -114,6 +114,10 @@ public class Topico {
 		return autor;
 	}
 
+	public String getNomeAutor() {
+		return autor.getNome();
+	}
+
 	public void setAutor(Usuario autor) {
 		this.autor = autor;
 	}
